@@ -9,7 +9,10 @@ for(let i = 1; i <= 8; i++){
         div.style.width = "12.5%";
         div.style.float = "left";
         div.style.paddingBottom = "12.5%";
-        div.style.background = "black";
+        // div.style.background = "black";
+        var randomColor = Math.floor(Math.random()*16777215).toString(16);
+        div.style.background = '#'+ randomColor;
+        // color.innerHTML = '#' + randomColor;
         // div.style.borderBottom = "1px solid blue";
       } else{
         const div = document.createElement('div');
@@ -17,7 +20,9 @@ for(let i = 1; i <= 8; i++){
         div.style.width = "12.5%";
         div.style.float = "left";
         div.style.paddingBottom = "12.5%";
-        div.style.background = "red";
+        // div.style.background = "red";
+        var randomColor = Math.floor(Math.random()*16777215).toString(16);
+        div.style.background = '#'+ randomColor;
         // div.style.borderBottom = "1px solid blue";
       }
     }
@@ -29,7 +34,9 @@ for(let i = 1; i <= 8; i++){
         div.style.width = "12.5%";
         div.style.float = "left";
         div.style.paddingBottom = "12.5%";
-        div.style.background = "red";
+        // div.style.background = "red";
+        var randomColor = Math.floor(Math.random()*16777215).toString(16);
+        div.style.background = '#'+ randomColor;
         // div.style.borderBottom = "1px solid blue";
         } else{
         const div = document.createElement('div');
@@ -37,7 +44,9 @@ for(let i = 1; i <= 8; i++){
         div.style.width = "12.5%";
         div.style.float = "left";
         div.style.paddingBottom = "12.5%";
-        div.style.background = "black";
+        // div.style.background = "black";
+        var randomColor = Math.floor(Math.random()*16777215).toString(16);
+        div.style.background = '#'+ randomColor;
         // div.style.borderBottom = "1px solid blue";
       }
     }
